@@ -30,7 +30,7 @@ async function bootstrap() {
   const port = configService.get('PORT');
 
   const options = new DocumentBuilder()
-	  .setTitle('My API')
+	  .setTitle('CRUD Task API')
 	  .setDescription('Rest API')
 	  .setVersion('1.0')
 	  .build();
